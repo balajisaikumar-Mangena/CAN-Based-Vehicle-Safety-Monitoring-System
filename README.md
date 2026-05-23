@@ -34,22 +34,55 @@ To design and develop an automotive safety and monitoring system using the **CAN
 # 🏗 System Architecture
 
 ## 🔹 Main Node
-- Reads Engine Temperature
-- Controls LCD Dashboard
-- Sends Indicator Commands
-- Receives Reverse Alerts
+- Reads Engine Temperature  
+- Controls LCD Dashboard  
+- Sends Indicator Commands  
+- Receives Reverse Alerts  
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/38ae6750-d8e7-4112-8ea5-6dc5721eb14f" />
+<table align="center">
+<tr>
 
+<td align="center">
+<h2>🟢 SAFE / COOL</h2>
+<img width="400" height="200" alt="vechicle_dashboard_main_node" src="https://github.com/user-attachments/assets/be15817f-cc5a-4c0d-aa08-35aa47366faf" />
+
+<td align="center">
+<h2>🟡 WARM</h2>
+<img width="400" height="200" alt="Warm_condition" src="https://github.com/user-attachments/assets/ceb1934e-66a0-4a83-b69b-03b2b6e56021" />
+</td>
+
+</tr>
+</table>
+
+<h2 align="center">🔴 HOT / OVERHEATED</h2>
+
+<p align="center">
+<img width="400" height="200" alt="Hot_condition" src="https://github.com/user-attachments/assets/6e351198-8f4d-4dfa-85ff-63b9042f3fad" />
+<img width="400" height="200" alt="Over_heated" src="https://github.com/user-attachments/assets/6588d404-9fb1-492e-9576-d1bcea9d9d25" />
+
+<h2 align="center">⬅ LEFT INDICATOR</h2>
+
+<p align="center">
+<img width="400" height="200" alt="Left_indicator" src="https://github.com/user-attachments/assets/0c7a9174-2c1a-47fc-be2b-2ba782d46eb8" />
+<img width="400" height="200" alt="Left_indicator_1" src="https://github.com/user-attachments/assets/b656e071-410e-47d8-a59e-f67f79f2ca11" />
+
+<h2 align="center">➡ RIGHT INDICATOR</h2>
+
+<p align="center">
+<img width="400" height="200" alt="Right_indicator" src="https://github.com/user-attachments/assets/b82949ab-9ffa-499d-b71e-abfa1f72ae8e" />
+<img width="400" height="200" alt="Right_Indicator_1" src="https://github.com/user-attachments/assets/35980e2c-7c80-4609-b6b9-3624a51669e4" />
+  
+---
 
 ## 🔹 Indicator Node
-- Controls Left/Right Indicators
-- Receives CAN Commands
+- Controls Left/Right Indicators  
+- Receives CAN Commands  
+
+---
 
 ## 🔹 Reverse Alert Node
-- Reads Ultrasonic Sensor Data
+- Reads Ultrasonic Sensor Data  
 - Sends Obstacle Alerts to Main Node
-
 ---
 
 # ⚙ Hardware Requirements
