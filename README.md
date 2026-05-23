@@ -34,10 +34,9 @@ To design and develop an automotive safety and monitoring system using the **CAN
 # 🏗 System Architecture
 
 ## 🔹 Main Node
-- Reads Engine Temperature  
-- Controls LCD Dashboard  
-- Sends Indicator Commands  
-- Receives Reverse Alerts  
+- Reads Engine Temperature
+- Controls LCD Dashboard
+- Sends Indicator Commands     
 
 <table align="center">
 <tr>
@@ -59,7 +58,7 @@ To design and develop an automotive safety and monitoring system using the **CAN
 <p align="center">
 <img width="400" height="200" alt="Hot_condition" src="https://github.com/user-attachments/assets/6e351198-8f4d-4dfa-85ff-63b9042f3fad" />
 <img width="400" height="200" alt="Over_heated" src="https://github.com/user-attachments/assets/6588d404-9fb1-492e-9576-d1bcea9d9d25" />
-
+   
 <h2 align="center">⬅ LEFT INDICATOR</h2>
 
 <p align="center">
@@ -71,8 +70,36 @@ To design and develop an automotive safety and monitoring system using the **CAN
 <p align="center">
 <img width="400" height="200" alt="Right_indicator" src="https://github.com/user-attachments/assets/b82949ab-9ffa-499d-b71e-abfa1f72ae8e" />
 <img width="400" height="200" alt="Right_Indicator_1" src="https://github.com/user-attachments/assets/35980e2c-7c80-4609-b6b9-3624a51669e4" />
-  
+<br><br>
+<h2 align="center">🚗 Receives Reverse Alerts 🚗</h2>
+<br><br>
+
+<table align="center">
+<tr>
+
+<td align="center">
+<h2>🟢 PATH CLEAR</h2>
+<img width="400" height="200" alt="Reverse mode Path is clear" src="https://github.com/user-attachments/assets/cf3eadc1-045b-458d-ba36-b16e04eca415" />
+</td>
+
+<td align="center">
+<h2>⚠ OBJECT NEARBY</h2>
+<img width="400" height="200" alt="Object nearby" src="https://github.com/user-attachments/assets/cb3b5340-6aa5-4570-a5dd-beb452075ff7" />
+
+</td>
+
+</tr>
+</table>
+
 ---
+
+<h2 align="center">🚨 OBJECT DETECTED</h2>
+
+<p align="center">
+<img width="400" height="200" alt="Object detected" src="https://github.com/user-attachments/assets/8bc551ca-0790-4297-991f-1fad2d9dc8e6" />
+<img width="400" height="200" alt="Warning  vehicle" src="https://github.com/user-attachments/assets/ee11257d-aa79-4c3d-b6e1-44778d4b57b3" />
+
+</p>  
 
 ## 🔹 Indicator Node
 - Controls Left/Right Indicators  
