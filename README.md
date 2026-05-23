@@ -43,7 +43,7 @@ To design and develop an automotive safety and monitoring system using the **CAN
 <tr>
 
 <td align="center">
-<h2>🟢 SAFE / COOL</h2>
+<h2>🟢 SAFE</h2>
 <img width="400" height="200" alt="vechicle_dashboard_main_node" src="https://github.com/user-attachments/assets/be15817f-cc5a-4c0d-aa08-35aa47366faf" />
 
 <td align="center">
