@@ -25,6 +25,12 @@ To design and develop an automotive safety and monitoring system using the **CAN
 
 ---
 
+# 🖼 Block Diagram
+
+<img width="1026" height="707" alt="Block Diagram" src="https://github.com/user-attachments/assets/d94aad62-9c2c-4a5d-be80-d19869d6b7ec" />
+
+---
+
 # 🏗 System Architecture
 
 ## 🔹 Main Node
@@ -33,6 +39,9 @@ To design and develop an automotive safety and monitoring system using the **CAN
 - Sends Indicator Commands
 - Receives Reverse Alerts
 
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/38ae6750-d8e7-4112-8ea5-6dc5721eb14f" />
+
+
 ## 🔹 Indicator Node
 - Controls Left/Right Indicators
 - Receives CAN Commands
@@ -40,12 +49,6 @@ To design and develop an automotive safety and monitoring system using the **CAN
 ## 🔹 Reverse Alert Node
 - Reads Ultrasonic Sensor Data
 - Sends Obstacle Alerts to Main Node
-
----
-
-# 🖼 Block Diagram
-
-<!-- Add Block Diagram Image Here -->
 
 ---
 
