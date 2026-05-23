@@ -133,3 +133,29 @@ CAN-Based-Vehicle-Safety-Monitoring-System
 │
 ├── README.md
 └── LICENSE
+```
+
+---
+
+# ✅ Advantages
+
+- Real-Time Vehicle Monitoring  
+- Reliable CAN-Based Communication  
+- Improved Vehicle Safety System  
+- Modular Multi-Node Architecture  
+- Low Latency Data Transmission  
+- Efficient Temperature Monitoring  
+- Reverse Collision Warning Support  
+- Easy Integration with Automotive Systems  
+- Scalable for Future Vehicle Features  
+- User-Friendly LCD Dashboard Interface  
+
+---
+
+# 👨‍💻 Author
+
+**Balaji Sai Kumar Mangena**  
+*Embedded Systems Enthusiast*  
+
+Passionate about Embedded Systems, Firmware Development,  
+and Automotive Embedded Technologies.
